@@ -20,7 +20,7 @@ func main() {
 	})
 
 	// Run the Gin server on port 8080
-	if err := router.Run(":8080"); err != nil {
+	if err := router.Run(":8089"); err != nil {
 		// If there's an error starting the server, print the error
 		fmt.Println("Error starting server:", err)
 	}
